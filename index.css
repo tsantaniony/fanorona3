@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(132, 72, 19);
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: 80%;
+    /*padding: 8px 15px;*/
+    margin-left: 15%;
+    background-color: rgb(169, 94, 24);
+    border: solid 3px rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 1px rgb(68, 68, 68);
+    text-decoration: none;
+    /*position: relative;
+    display: inline;*/
+    margin-top: 100%;
+
+}
+a:hover {
+    border: solid 3px rgb(112, 62, 16);
+    box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+        -15px -15px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 8px solid black;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /*margin-top: 75px;*/
+   
+}
+
+
+.horizontal {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.vertical {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 149px;
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+
+.diagonal-gauche{
+    background-color: black;
+    height: 2px;
+    width: 141.42%;
+    position: absolute;
+    top: 149px;
+    left: -64px;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.diagonal-droite{
+    background-color: black;
+    height: 2px;
+    width: 141.42%;
+    position: absolute;
+    top: 149px;
+    right: -64px;
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.p1 {
+    background-color: white;
+}
+
+.p2 {
+    background-color: black;
+}
+
+.highlight {
+    background-color: rgb(190, 187, 187);
+}
+
+.active-p1 {
+    background-color: rgb(44, 5, 5);
+}
+
+.active-p2 {
+    background-color: rgb(7, 5, 1);
+}
+
+.player1 {
+    color: black;
+}
+
+.player2 {
+    color: black;
+}
+
+.moving {
+    color: black;
+}
+
+.position {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.top {
+    top: -25px;
+}
+
+.mid {
+    top: 125px;
+}
+
+.bottom {
+    bottom: -25px;
+}
+
+.left {
+    left: -25px;
+}
+
+.center {
+    left: 125px;
+}
+
+.right {
+    right: -25px;
+}
+
+.position:hover {
+    background-color: rgb(168, 161, 161);
+}
